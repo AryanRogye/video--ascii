@@ -97,13 +97,12 @@ class videoAscii {
  
         let asciiOfImage = [];
 
-        let asciiSymbols = ".:-=+*#%@ ";
+        let asciiSymbols = ".:-=+*#%@";
         //the 1st index represents 255 and the last index represents 0
         //need to split 255 divided by the length of asciiSymbols
 
         let asciiSymbolsLength = asciiSymbols.length;
         let interval = Math.ceil(255 / asciiSymbolsLength);
-        console.log('interval', interval);
 
         let asciiOfPicture = [];
     
