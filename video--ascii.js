@@ -139,7 +139,7 @@ function sleep(ms) {
 
 async function main() {
     // const videoPath = 'psy.mp4';
-    const videoPath = 'johnny.mp4';
+    const videoPath = 'psy.mp4';
     const outputPath = 'outputFrames/';
 
     let video = new videoAscii();
